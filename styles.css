@@ -2,14 +2,25 @@ body {
     font-family: roboto;
 }
 
+* {
+    border: .5px solid red;
+}
+
 
 header, .hero {
     background-color: darkblue;
     color: white;
+    display: flex;
+    flex-direction: row;
 }
 
-.hero {
+.header-logo {
+   display: flex;
+   justify-content: flex-start;
+}
 
+.navbar {
+    display: 
 }
 
 .flavors {
