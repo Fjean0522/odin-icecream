@@ -1,15 +1,26 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
     font-family: roboto;
 }
 
-li {
-    list-style: none;
+
+header, .hero {
+    background-color: darkblue;
+    color: white;
 }
 
-a:link {
-    text-decoration: none;
+.hero {
+
 }
+
+.flavors {
+    background-color: white;
+}
+
+.quote {
+    background-color: lightgrey;
+}
+
+.call-to-action {
+    background-color: blue;
+}
+
