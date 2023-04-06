@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    border: 2px solid;
+}
+
+body {
+    font-family: roboto;
+}
+
+.header {
+    margin: 56px;
+    padding: 56px;
+}
