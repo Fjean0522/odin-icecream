@@ -1,28 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: roboto;
+    margin: 0;
+    padding: 0;
 }
-
-* {
-    border: .5px solid red;
-}
-
 
 header, .hero {
-    background-color: darkblue;
+    background-color: #274c80;
     color: white;
 }
 
-.header-logo {
-   display: flex;
-   justify-content: flex-start;
-   margin-right: 1000px;
+header {
+    padding: 32px;
 }
 
 .navbar {
     display: flex;
-    justify-content: space-around;
-    margin-left: 900px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 1rem;
 }
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
 
 .flavors {
     background-color: white;
@@ -38,6 +51,11 @@ header, .hero {
 }
 
 .call-to-action {
-    background-color: blue;
+    background-color: #3882f6;
+    border-radius: 8px;
+    margin: 100px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
 }
 
