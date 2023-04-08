@@ -90,6 +90,10 @@ body {
     margin: 6px 20px;
 }
 
+.flavors-content p {
+    font-weight: bold;
+}
+
 /* quote section */
 .quote {
     display: flex;
