@@ -1,11 +1,137 @@
-body {
-    font-family: roboto;
-    margin: 0;
-    padding: 0;
+* {
+    box-sizing: border-box;
+    /* border: 1px solid; */
 }
 
+body {
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', arial;
+}
 
-
+/* navbar section */
 .navbar {
-   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0e5ea4;
+    color: white;
+    padding: 0px 100px;
+}
+
+.nav-logo {
+    padding-top: 12px;
+}
+
+.nav-logo img {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+/* hero section */
+.hero {
+    display: flex;
+    gap: 6rem;
+    background-color: #0e5ea4;
+    color: white;
+    padding: 12px 100px 48px 100px;
+}
+
+.cta-1 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.cta-1 h1 {
+    margin-bottom: 0;
+}
+
+.cta-1 p {
+    opacity: 0.8;
+}
+
+.signup-1 {
+    width: 100px;
+    height: 30px;
+    background-color: #fb5086;
+    color: white;
+    font-weight: bold;
+    border: solid #fb5086;
+    border-radius: 5px;
+}
+
+/* flavors section */
+.flavors-content {
+    display: flex;
+    justify-content: center;
+}
+.flavors-content img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border: 3px solid blue;
+    border-radius: 10px;
+    margin: 6px 20px;
+}
+
+/* quote section */
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 6px 200px;
+    height: 220px;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+/* cta-2 section */
+.cta-2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882f6;
+    color: white;
+    padding: 0px 24px;
+    margin: 64px 136px;
+    border-radius: 10px;
+}
+
+.cta-2-0 {
+    text-align: left;
+}
+
+.signup-2 {
+    width: 100px;
+    height: 30px;
+    background-color: #fb5086;
+    color: white;
+    border: solid #fb5086;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* footer section */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0e5ea4;
+    color: white;
+    height: 48px;
 }
