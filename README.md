@@ -1,6 +1,6 @@
 # odin-icecream
 
-Simple weibsite landing page, created to practice flexbox and layouts.
+Simple website landing page, created to practice flexbox and layouts.
 
 
 ## 1 Author
