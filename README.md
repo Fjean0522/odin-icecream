@@ -2,6 +2,7 @@
 
 Simple website landing page, created to practice flexbox and layouts.
 
+Live
 
 ## 1 Author
 Fjean0522
