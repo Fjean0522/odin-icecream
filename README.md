@@ -2,7 +2,8 @@
 
 Simple website landing page, created to practice flexbox and layouts.
 
-Live
+# Live site
+https://fjean0522.github.io/odin-icecream/
 
 ## 1 Author
 Fjean0522
