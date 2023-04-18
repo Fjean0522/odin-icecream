@@ -1,6 +1,6 @@
 # odin-icecream
 
-Website landing page for a mock ice cream shop. Created to practice flexbox and css layouts.
+Landing page for a mock ice cream shop. Created to practice flexbox and css layouts.
 
 # Live site
 https://fjean0522.github.io/odin-icecream/
